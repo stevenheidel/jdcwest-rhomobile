@@ -1,20 +1,5 @@
 <div class="pageTitle">
-  <h1>Jdcwest2011Rhodes</h1>
-</div>
-
-<div class="toolbar">
-  <% if SyncEngine::logged_in > 0 %>
-      <div class="leftItem blueButton">
-        <a href="<%= url_for :controller => :Settings, :action => :do_sync %>">Sync</a>
-      </div>
-      <div class="rightItem regularButton">
-        <a href="<%= url_for :controller => :Settings, :action => :logout %>">Logout</a>
-      </div>
-  <% else %>
-      <div class="rightItem regularButton">
-        <a href="<%= url_for :controller => :Settings, :action => :login %>">Login</a>
-      </div>
-  <% end %>
+  <h1>JDC West Countdown</h1>
 </div>
 
 <div class="content">
