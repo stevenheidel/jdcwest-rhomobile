@@ -23,7 +23,7 @@ LastVisitedPage = ''
 syncserver = 'http://rhohub-livingskyweb-f0fc0c18.rhosync.com/application'
 
 # To disable auto sync, uncomment the following line.
-# sync_poll_interval=0
+sync_poll_interval=0
 
 logserver = 'http://rhologs.heroku.com'
 logname='jdcwest2011-rhodes'

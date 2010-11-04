@@ -1,0 +1,71 @@
+I 11/04/2010 11:55:30:872 afe42a98            RhodesApp| Trying to get free listening port.
+I 11/04/2010 11:55:30:882 afe42a98            RhodesApp| Trying to bind of 0 port...
+I 11/04/2010 11:55:30:884 afe42a98            RhodesApp| Got port to bind on: 36487
+I 11/04/2010 11:55:30:885 afe42a98            RhodesApp| Free listening port: 36487
+I 11/04/2010 11:55:30:898 afe42a98               Rhodes| Loading...
+I 11/04/2010 11:55:31:598 002e8c40            RhodesApp| Starting RhodesApp main routine...
+I 11/04/2010 11:55:31:627 afe42a98            RhodesApp| callAppActiveCallback
+I 11/04/2010 11:55:32:307 002e8c40              RhoRuby| Init_RhoBlobs: /data/data/com.rhomobile.jdcwest/rhodata/db/db-files
+I 11/04/2010 11:55:32:309 002e8c40              RhoRuby| Init_RhoBlobs: done
+I 11/04/2010 11:55:32:332 002e8c40              RhoRuby| require_compiled: rhoframework
+I 11/04/2010 11:55:32:353 002e8c40              RhoRuby| require_compiled: rational
+I 11/04/2010 11:55:32:362 002e8c40              RhoRuby| require_compiled: rhom/rhom_db_adapter
+I 11/04/2010 11:55:32:413 002e8c40              RhoRuby| require_compiled: rhodes
+I 11/04/2010 11:55:32:423 002e8c40              RhoRuby| require_compiled: rhom/rhom_object
+I 11/04/2010 11:55:32:436 002e8c40              RhoRuby| require_compiled: rhofsconnector
+I 11/04/2010 11:55:32:440 002e8c40              RhoRuby| require_compiled: rho/rhofsconnector
+I 11/04/2010 11:55:32:455 002e8c40              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 11/04/2010 11:55:32:658 002e8c40              RhoRuby| require_compiled: rhom/rhom
+I 11/04/2010 11:55:32:685 002e8c40              RhoRuby| require_compiled: rhom/rhom_model
+I 11/04/2010 11:55:32:723 002e8c40              RhoRuby| require_compiled: rhom
+I 11/04/2010 11:55:32:728 002e8c40              RhoRuby| require_compiled: rho/rhoapplication
+I 11/04/2010 11:55:32:760 002e8c40              RhoRuby| require_compiled: rholang/localization_simplified
+I 11/04/2010 11:55:32:794 002e8c40                  APP| Current locale: en
+I 11/04/2010 11:55:32:796 002e8c40              RhoRuby| require_compiled: rholang/lang_en
+I 11/04/2010 11:55:32:813 002e8c40              RhoRuby| require_compiled: rho/rhomsg
+I 11/04/2010 11:55:32:824 002e8c40                  APP| Current locale: en
+I 11/04/2010 11:55:32:825 002e8c40              RhoRuby| require_compiled: rholang/rhomsg_en
+I 11/04/2010 11:55:32:834 002e8c40              RhoRuby| require_compiled: indifferent_access
+I 11/04/2010 11:55:32:895 002e8c40              RhoRuby| require_compiled: rho/rhosupport
+I 11/04/2010 11:55:32:985 002e8c40              RhoRuby| require_compiled: rho/rhocontroller
+I 11/04/2010 11:55:33:049 002e8c40              RhoRuby| require_compiled: rho/render
+I 11/04/2010 11:55:33:114 002e8c40              RhoRuby| require_compiled: rho/rho
+I 11/04/2010 11:55:33:267 002e8c40              RhoRuby| require_compiled: rho/rhoerror
+I 11/04/2010 11:55:33:278 002e8c40                  APP| Current locale: en
+I 11/04/2010 11:55:33:279 002e8c40              RhoRuby| require_compiled: rholang/rhoerror_en
+I 11/04/2010 11:55:33:291 002e8c40              RhoRuby| require_compiled: rhom/rhom_source
+I 11/04/2010 11:55:33:318 002e8c40              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 11/04/2010 11:55:33:343 002e8c40              RhoRuby| require_compiled: rho
+I 11/04/2010 11:55:33:350 002e8c40                  APP| RHO loaded
+I 11/04/2010 11:55:33:351 002e8c40                  APP| Calling RHO.initialize
+I 11/04/2010 11:55:33:361 002e8c40              RhoRuby| require_compiled: Sponsor/sponsor
+I 11/04/2010 11:55:33:373 002e8c40                  APP| Sponsor : 
+I 11/04/2010 11:55:33:378 002e8c40                  APP| init_sources: [{"name"=>"Sponsor", "sync_priority"=>1000, "partition"=>"user", "sync_type"=>"none"}]
+I 11/04/2010 11:55:33:379 002e8c40                  APP| @db_partitions : {"user"=>nil}
+I 11/04/2010 11:55:33:381 002e8c40                   DB| Open DB: /data/data/com.rhomobile.jdcwest/rhodata/db/syncdbuser.sqlite
+I 11/04/2010 11:55:33:387 002e8c40                   DB| Try migrate database from  to 2.2.0
+I 11/04/2010 11:55:33:388 002e8c40                   DB| Reset database because version is changed.
+I 11/04/2010 11:55:33:552 002e8c40                  APP| init_db_sources(Sponsor) : {"name"=>"Sponsor", "sync_priority"=>1000, "partition"=>"user", "sync_type"=>"none", "str_associations"=>""}
+I 11/04/2010 11:55:33:562 002e8c40                  APP| Migrate schema sources: {}
+I 11/04/2010 11:55:33:567 002e8c40                  APP| init_schema_sources
+I 11/04/2010 11:55:33:573 002e8c40            RhodesApp| Starting sync engine...
+I 11/04/2010 11:55:33:577 002e8c40            RhodesApp| RhoRubyInitApp...
+I 11/04/2010 11:55:33:579 002e8c40              RhoRuby| require_compiled: application
+I 11/04/2010 11:55:33:588 002e8c40              RhoRuby| require_compiled: rho/rhoutils
+I 11/04/2010 11:55:33:591 0063daa0                 Sync| Starting main routine...
+I 11/04/2010 11:55:33:594 0063daa0                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 11/04/2010 11:55:33:596 0063daa0                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 11/04/2010 11:55:33:625 002e8c40                  APP| Current locale: en
+I 11/04/2010 11:55:33:629 002e8c40                  APP| Initializing application with tabs: [{:label=>"Countdown", :action=>"/app", :icon=>"/public/images/tabs/11-clock.png", :reload=>true, :refresh=>false}, {:label=>"News", :action=>"http://www.jdcwest.com/pages/blog.html", :icon=>"/public/images/tabs/18-envelope.png", :refresh=>false}, {:label=>"Sponsors", :action=>"/app/Sponsor", :icon=>"/public/images/tabs/112-group.png", :refresh=>false}, {:label=>"More", :action=>"/app/More", :icon=>"/public/images/tabs/09-chat2.png", :refresh=>false}]
+I 11/04/2010 11:55:33:656 0036ad08   RhodesApp.cpp: 222| navigate to first start url
+I 11/04/2010 11:55:33:662 0036ad08                  Net| GET url: http://127.0.0.1:36487/system/activateapp
+I 11/04/2010 11:55:35:406 002e8c40                  APP| RhoApplication: Using menu - {"Home"=>:home, "Refresh"=>:refresh}
+I 11/04/2010 11:55:35:410 002e8c40                  APP| inside RHO.serve_index: /data/data/com.rhomobile.jdcwest/rhodata/apps/app/index_erb.iseq
+I 11/04/2010 11:55:35:434 002e8c40 RHO Rho::RhoController| inst_render_index
+I 11/04/2010 11:55:35:499 002e8c40 RHO Rho::RhoController| index layout
+I 11/04/2010 11:55:43:849 002e8c40                  APP| inside RHO.serve...
+I 11/04/2010 11:55:43:855 002e8c40              RhoRuby| require_compiled: Sponsor/sponsor_controller
+I 11/04/2010 11:55:43:872 002e8c40              RhoRuby| require_compiled: helpers/browser_helper
+I 11/04/2010 11:55:43:953 002e8c40 RHO SponsorController| Layout file: /data/data/com.rhomobile.jdcwest/rhodata/apps/app/layout_erb.iseq. Content size: 1192
+I 11/04/2010 11:55:43:954 002e8c40                  APP| RhoApplication: Using menu - {"Home"=>:home, "Refresh"=>:refresh}
+I 11/04/2010 11:55:46:093 afe42a98      ChromeClientNew| TypeError: Result of expression 'document.getElementById('countDays')' [null] is not an object. -- From line 61 of http://127.0.0.1:36487/app/countdown.js
