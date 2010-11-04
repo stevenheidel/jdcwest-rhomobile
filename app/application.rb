@@ -8,7 +8,7 @@ class AppApplication < Rho::RhoApplication
     @tabs = [
       { :label => "Countdown", :action => '/app', 
           :icon => "/public/images/tabs/11-clock.png", :reload => true }, 
-      { :label => "News",  :action => "http://www.jdcwest.com/pages/blog.html",#'/app/News',  
+      { :label => "News",  :action => '/app/News',  
           :icon => "/public/images/tabs/18-envelope.png" },
       { :label => "Sponsors",  :action => '/app/Sponsor',
           :icon => "/public/images/tabs/112-group.png" },
