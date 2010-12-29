@@ -15,7 +15,7 @@ class AppApplication < Rho::RhoApplication
       { :label => "More",   :action => '/app/More', 
           :icon => "/public/images/tabs/09-chat2.png" }
     ]
-    @@tabbar = nil
+    #@@tabbar = nil
     
     super
     
