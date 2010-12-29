@@ -1,48 +1,76 @@
 CGA
 Presenting Sponsor
-Certified General Accountants
---
-ESB
-Hosting Partner
-Edwards School of Business
+http://www.cga-canada.org/en-ca/Pages/default.aspx
 --
 Ministry of Advanced Education and Labour
 Founding Partner
-Description
+http://www.aeel.gov.sk.ca/
 --
-Tourism Saskatchewan
+PotashCorp
+Founding Partner
+http://www.potashcorp.com/
+--
+ESB
+Hosting Partner
+http://www.edwards.usask.ca/
+--
+Tourism Saskatoon
 Executive Partner
-Description
+http://www.tourismsaskatoon.com/
 --
 CMA
 Business Strategy Sponsor
-Description
---
-Nexen 
-MIS Sponsor
-Description
+http://www.cma-saskatchewan.com/
 --
 Enterprise Saskatchewan
 Entrepreneurship Sponsor
-Description
+http://www.enterprisesaskatchewan.ca/
 --
-St. Peter's College
+St Peter's College
 NFP Business Strategy Sponsor
-Description
+http://www.stpeterscollege.ca/
+--
+Scotiabank
+Finance Sponsor
+http://www.scotiabank.com/
+--
+Nexen
+International Business Sponsor
+http://www.nexeninc.com/
 --
 Cameco
 Organizing Committee Sponsor
-Description
+http://www.cameco.com/
+--
+Viterra
+Gala Awards Sponsor
+http://www.viterra.ca/
 --
 CHRP
-Associate Sponsor
-Description
+Associate Partner
+http://www.chrp.ca/en/
 --
 Case New Holland
-Associate Sponsor
-Description
+Associate Partner
+http://www.cnh.com/
 --
-Comfort Cabs
-Transportation Sponsor
+PWC
+Associate Partner
+http://www.pwc.com/ca/en/index.jhtml
+--
+SaskTel
+Associate Partner
+http://www.sasktel.com/
+--
+SaskEnergy
+Volunteer Sponsor
+http://www.saskenergy.com/
+--
+KPMG
+Lunch Sponsor
+http://www.kpmg.com/ca/en
+--
+Comfort Cab
+Transportation Partner
 Description
 --

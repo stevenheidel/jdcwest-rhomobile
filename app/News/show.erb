@@ -1,35 +1,25 @@
-<div class="pageTitle">
-  <h1><%= @news.title %></h1>
-</div>
-
 <div class="toolbar">
   <div class="leftItem backButton">
     <a href="<%= url_for :action => :index %>">Back</a>
-  </div>  
+  </div>
+  
+  <h1 id="pageTitle"><%= @news.title %></h1>
 </div>
 
 <div class="content">
-  <ul>
-    
-        <li>
-          <div class="itemLabel">Title</div>
-          <div class="itemValue"><%= @news.title %></div>
-        </li>
-    
+  <ul>    
         <li>
           <div class="itemLabel">Date</div>
           <div class="itemValue"><%= @news.date %></div>
         </li>
     
         <li>
-          <div class="itemLabel">Body</div>
-          <div class="itemValue"><%= @news.body %></div>
-        </li>
-    
-        <li>
           <div class="itemLabel">Author</div>
           <div class="itemValue"><%= @news.author %></div>
         </li>
-    
+        
+        <li>
+          <%= @news.body %>
+        </li>
   </ul>
 </div>

@@ -26,7 +26,12 @@ function GetCount(){
  
 	// time is already past
 	if(amount < 0){
-		document.getElementById('countbox').innerHTML="JDC West 2011 has Begun!";
+    document.getElementById('countDays').innerHTML = 0;
+    document.getElementById('countHours').innerHTML = 0;
+    document.getElementById('countMinutes').innerHTML = 0;
+    document.getElementById('countSeconds').innerHTML = 0;
+    
+		document.getElementById('countBox').innerHTML="JDC West 2011 has Begun!";
 	}
 	// date is still good
 	else{

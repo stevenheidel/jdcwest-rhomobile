@@ -9,7 +9,19 @@
 <div id="content">
     <table>
       <tr>
-        <td class="recordLabel"><a href="News">Add links here...</a></td>
+        <td class="recordLabel">
+          <a href="<%= url_for :controller => :News, :action => :index %>">News</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="recordLabel">
+          <a href="<%= url_for :controller => :Schedule, :action => :index %>">News</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="recordLabel">
+          <a href="<%= url_for :controller => :More, :action => :index %>">News</a>
+        </td>
       </tr>
     </table>
 </div>

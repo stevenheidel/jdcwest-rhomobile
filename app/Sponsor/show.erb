@@ -1,35 +1,25 @@
-<div class="pageTitle">
-  <h1><%= @sponsor.name %></h1>
-</div>
-
 <div class="toolbar">
   <div class="leftItem backButton">
     <a href="<%= url_for :action => :index %>">Back</a>
   </div>
+  
+  <h1 id="pageTitle"><%= @sponsor.name %></h1>
 </div>
 
 <div class="content">
   <ul>
+    <li><img src="/app/Sponsor/pictures/<%= @sponsor.name %>.jpg" width="300" /></li>
     
-        <li>
-          <div class="itemLabel">Name</div>
-          <div class="itemValue"><%= @sponsor.name %></div>
-        </li>
-    
-        <li>
-          <div class="itemLabel">Type</div>
-          <div class="itemValue"><%= @sponsor.type %></div>
-        </li>
-    
-        <li>
-          <div class="itemLabel">Description</div>
-          <div class="itemValue"><%= @sponsor.description %></div>
-        </li>
-    
-        <li>
-          <div class="itemLabel">Picture</div>
-          <div class="itemValue"><%= @sponsor.picture %></div>
-        </li>
-    
+    <li>
+      <div class="itemLabel" style="width:100%; float:none;">
+        <%= @sponsor.type %>
+      </div>
+    </li>
+            
+    <li>
+      <div class="itemLabel" style="width:100%; float:none;">
+        <%= @sponsor.description %>
+      </div>
+    </li>    
   </ul>
 </div>

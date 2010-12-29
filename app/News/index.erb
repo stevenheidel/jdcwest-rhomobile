@@ -1,15 +1,19 @@
-<div class="pageTitle">
-  <h1>News</h1>
-</div>
-
 <div class="toolbar">
   <div class="leftItem regularButton">
-    <a href="">Refresh</a>
+    <a href="<%= url_for :action => :update %>">Refresh</a>
   </div>
+  
+  <h1 id="pageTitle">News</h1>
 </div>
 
 <div class="content">
   <ul>
+    <% if @news.size == 0 %>
+      
+      <li>You must be connected to the internet. Press refresh to get the latest News.</li>
+      
+    <% end %>
+    
     <% @news.each do |news| %>
     
         <li>

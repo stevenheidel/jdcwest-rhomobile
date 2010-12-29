@@ -8,11 +8,6 @@ class NewsController < Rho::RhoController
   def index
     @news = News.find(:all)
     
-    unless @news.size > 0
-      get_posts
-      @news = News.find(:all)
-    end
-    
     render
   end
 
@@ -24,6 +19,14 @@ class NewsController < Rho::RhoController
     else
       redirect :action => :index
     end
+  end
+  
+  def update
+    News.delete_all
+    get_posts
+    @news = News.find(:all)
+    
+    render :action => :index
   end
   
   def get_posts

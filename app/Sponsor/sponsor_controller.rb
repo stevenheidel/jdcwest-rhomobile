@@ -6,12 +6,10 @@ class SponsorController < Rho::RhoController
 
   #GET /Sponsor
   def index
-    @sponsors = Sponsor.find(:all)
+    Sponsor.delete_all
     
-    unless @sponsors.size > 0
-      Sponsor.seed
-      @sponsors = Sponsor.find(:all)
-    end
+    Sponsor.seed
+    @sponsors = Sponsor.find(:all)
       
     render
   end

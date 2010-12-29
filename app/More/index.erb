@@ -1,1 +1,29 @@
-Better app coming soon!
+<div class="toolbar">
+  <h1 id="pageTitle">More</h1>
+</div>
+
+<div class="content">
+  <ul>
+    <li>
+      <a href="<%= url_for :controller => :Sponsor, :action => :index %>">
+        <span class="title">Sponsors</span><span class="disclosure_indicator"></span>
+      </a>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="<%= url_for :action => :contact %>">
+        <span class="title">Contact OC</span><span class="disclosure_indicator"></span>
+      </a>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href="<%= url_for :action => :about %>">
+        <span class="title">About App</span><span class="disclosure_indicator"></span>
+      </a>
+    </li>
+  </ul>
+</div>

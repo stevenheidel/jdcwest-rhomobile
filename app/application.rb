@@ -7,11 +7,11 @@ class AppApplication < Rho::RhoApplication
     # Super must be called *after* settings @tabs!
     @tabs = [
       { :label => "Countdown", :action => '/app', 
-          :icon => "/public/images/tabs/11-clock.png", :reload => true }, 
+          :icon => "/public/images/tabs/11-clock.png", :reload => true },
+      { :label => "Schedule",  :action => '/app/Schedule',
+          :icon => "/public/images/tabs/83-calendar.png" },
       { :label => "News",  :action => '/app/News',  
           :icon => "/public/images/tabs/18-envelope.png" },
-      { :label => "Sponsors",  :action => '/app/Sponsor',
-          :icon => "/public/images/tabs/112-group.png" },
       { :label => "More",   :action => '/app/More', 
           :icon => "/public/images/tabs/09-chat2.png" }
     ]
@@ -20,8 +20,8 @@ class AppApplication < Rho::RhoApplication
     super
     
     @default_menu = {
-      "Home" => :home,
-      "Refresh" => :refresh
+      "Refresh" => :refresh,
+      "Close" => :close
     }
 
     # Uncomment to set sync notification callback to /app/Settings/sync_notify.
