@@ -1,1 +1,27 @@
-Better app coming soon!
+<div id="toolbar">
+  <div class="leftItem regularButton">
+    <%= link_to "Home", RhoConfig::start_path %>
+  </div>
+  
+  <h1 id="pageTitle">More</h1>
+</div>
+
+<div id="content">  
+    <table>
+      <tr>
+        <td class="recordLabel">
+          <a href="<%= url_for :controller => :Sponsor, :action => :index %>">Sponsors</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="recordLabel">
+          <a href="<%= url_for :action => :contact %>">Contact OC</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="recordLabel">
+          <a href="<%= url_for :action => :about %>">About App</a>
+        </td>
+      </tr>
+    </table>
+</div>

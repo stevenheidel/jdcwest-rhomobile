@@ -1,21 +1,17 @@
-<div id="pageTitle">
-	<h1>Sponsors</h1>
-</div>
-
-
-<div id="toolbar">
-    <%= link_to "New", :action => :new %>
-    <%= link_to "Home", RhoConfig::start_path %>
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a href="<%= url_for :controller => :More, :action => :index %>">Back</a>
+  </div>
+  
+  <h1 id="pageTitle">Sponsors</h1>
 </div>
 
 <div id="content">
   <table>
     <tr>
-    <% @sponsors.each do |obj| %>
-    	
-    	    <td class="recordLabel"><%= link_to "#{obj.name}", :action => :show, :id => obj.object %></td>
-    	
-    <% end %>
+      <% @sponsors.each do |sponsor| %>
+        <td class="recordLabel"><%= link_to "#{sponsor.name}", :action => :show, :id => sponsor.object %></td>
+      <% end %>
     </tr>
   </table>
 </div>

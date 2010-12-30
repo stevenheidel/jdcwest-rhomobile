@@ -1,3 +1,31 @@
+<% if System::get_property('platform') == 'Blackberry' %>
+
+<div id="toolbar">
+  <h1 id="pageTitle">JDC West Menu</h1>
+</div>
+
+<div id="content">
+  <ul>
+    <li>
+      <a href="<%= url_for :controller => :News, :action => :index %>"><span class="title">
+        News
+      </span></a>
+    </li>
+    <li>
+      <a href="<%= url_for :controller => :Schedule, :action => :index %>"><span class="title">
+        Schedule
+      </span></a>
+    </li>
+    <li>
+      <a href="<%= url_for :controller => :More, :action => :index %>"><span class="title">
+        More
+      </span></a>
+    </li>
+  </ul>
+</div>
+
+<% else %>
+
 <script src="/app/countdown.js" type="text/javascript"></script>
 
 <div class="toolbar">
@@ -24,9 +52,11 @@
       <div class="itemValue" id="countSeconds"></div>
     </li>
     <li>
-      <div class="itemLabel" style="width:100%; float:none;" id="countBox">
+      <div class="itemLabel" style="width:90%; float:none;" id="countBox">
         until JDC West 2011 begins!</div>
     </li>
   </ul>
   
 </div>
+
+<% end %>

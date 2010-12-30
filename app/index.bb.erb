@@ -1,12 +1,27 @@
-<div id="pageTitle">
-    <h1>JDC West Countdown</h1>
-</div>
-
 <div id="toolbar">
-  
+  <h1 id="pageTitle">JDC West Menu</h1>
 </div>
 
-<div id="content">
+<div id="content">  
+    <% if System::get_property('os_version') =~ /^6\.0/  %>
+    <ul>
+      <li>
+        <a href="<%= url_for :controller => :News, :action => :index %>"><span class="title">
+          News
+        </span></a>
+      </li>
+      <li>
+        <a href="<%= url_for :controller => :Schedule, :action => :index %>"><span class="title">
+          Schedule
+        </span></a>
+      </li>
+      <li>
+        <a href="<%= url_for :controller => :More, :action => :index %>"><span class="title">
+          More
+        </span></a>
+      </li>
+    </ul>
+    <% else %>
     <table>
       <tr>
         <td class="recordLabel">
@@ -15,15 +30,16 @@
       </tr>
       <tr>
         <td class="recordLabel">
-          <a href="<%= url_for :controller => :Schedule, :action => :index %>">News</a>
+          <a href="<%= url_for :controller => :Schedule, :action => :index %>">Schedule</a>
         </td>
       </tr>
       <tr>
         <td class="recordLabel">
-          <a href="<%= url_for :controller => :More, :action => :index %>">News</a>
+          <a href="<%= url_for :controller => :More, :action => :index %>">More</a>
         </td>
       </tr>
     </table>
+    <% end %>
 </div>
 
 

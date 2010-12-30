@@ -1,11 +1,13 @@
-<div id="pageTitle">
-	<h1>News</h1>
-</div>
-
-
 <div id="toolbar">
-    <%= link_to "New", :action => :new %>
+  <div class="leftItem regularButton">
     <%= link_to "Home", RhoConfig::start_path %>
+  </div>
+  
+  <h1 id="pageTitle">News</h1>
+  
+  <div class="rightItem regularButton">
+    <a href="<%= url_for :action => :update %>">Refresh</a>
+  </div>
 </div>
 
 <div id="content">
