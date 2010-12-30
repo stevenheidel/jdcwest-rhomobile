@@ -2,7 +2,7 @@
 name: JDC West
 extensions: 
 - json
-bbver: 6.0
+bbver: 4.6
 android: 
   version: 2.1
 sdk: /home/steven/.rvm/gems/ruby-1.9.2-p136/gems/rhodes-2.2.6

@@ -3,22 +3,22 @@
     <a href="<%= url_for :action => :index %>">Back</a>
   </div>
   
-  <h1 id="pageTitle"><%= @sponsor.name %></h1>
+  <h1 id="pageTitle"><%= @sponsor[:name] %></h1>
 </div>
 
 <div class="content">
   <ul>
-    <li><img src="/app/Sponsor/pictures/<%= @sponsor.name %>.jpg" width="300" /></li>
+    <li><img src="/app/Sponsor/pictures/<%= @sponsor[:name] %>.jpg" width="300" /></li>
     
     <li>
       <div class="itemLabel" style="width:90%; float:none;">
-        <%= @sponsor.type %>
+      <%= @sponsor[:type] %>
       </div>
     </li>
             
     <li>
       <div class="itemLabel" style="width:90%; float:none;">
-        <%= @sponsor.description %>
+      <%= @sponsor[:description] %>
       </div>
     </li>    
   </ul>

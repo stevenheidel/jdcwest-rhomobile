@@ -11,8 +11,8 @@
     <% @sponsors.each do |sponsor| %>
     
         <li>
-          <a href="<%= url_for :action => :show, :id => sponsor.object %>">
-            <span class="title"><%= sponsor.name %></span><span class="disclosure_indicator"></span>
+          <a href="<%= url_for :action => :show, :id => sponsor[:name] %>">
+            <span class="title"><%= sponsor[:name] %></span><span class="disclosure_indicator"></span>
           </a>
         </li>
     
