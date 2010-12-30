@@ -33,7 +33,7 @@ class SponsorController < Rho::RhoController
       
     filename = File.join(Rho::RhoApplication::get_model_path('app','Sponsor'), 'sponsor.txt')
       
-    File.readlines(filename, "--\n").each do |section|
+    filename.readlines(filename, "--\n").each do |section|
       lines = section.lines.to_a
       # create hash of field\value pairs
       data = {:name => lines[0].chomp, 
