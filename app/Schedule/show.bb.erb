@@ -1,6 +1,6 @@
-<div class="toolbar">
+<div id="toolbar">
   <div class="leftItem backButton">
-    <a href="<%= url_for :action => :index %>">Back</a>
+    <a href="<%= url_for :action => :submenu, :id => @type %>">Back</a>
   </div>
   
   <h1 id="pageTitle"><%= @item.gsub("_", " ") + " " + @type %></h1>

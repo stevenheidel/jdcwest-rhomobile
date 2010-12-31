@@ -9,15 +9,28 @@
 </div>
 
 <div class="content">
-  <ul>
-    <% @schedules.each do |schedule| %>
+  <ul>    
     
         <li>
-          <a href="<%= url_for :action => :show, :id => schedule.object %>">
-            <span class="title"><%= schedule.name %></span><span class="disclosure_indicator"></span>
+          <a href="<%= url_for :action => :submenu, :id => "General" %>">
+            <span class="title">General</span><span class="disclosure_indicator"></span>
+          </a>
+        </li>
+        <li>
+          <a href="<%= url_for :action => :submenu, :id => "Cases" %>">
+            <span class="title">Case Competition</span><span class="disclosure_indicator"></span>
+          </a>
+        </li>
+        <li>
+          <a href="<%= url_for :action => :submenu, :id => "Debate" %>">
+            <span class="title">Debate</span><span class="disclosure_indicator"></span>
+          </a>
+        </li>
+        <li>
+          <a href="<%= url_for :action => :submenu, :id => "Sport" %>">
+            <span class="title">Sport</span><span class="disclosure_indicator"></span>
           </a>
         </li>
     
-    <% end %>
   </ul>
 </div>
