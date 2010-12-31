@@ -1,0 +1,446 @@
+--A--
+Accounting
+Saturday, 11:30 - 12:15
+ESB 116
+*
+Business Strategy
+Saturday, 9:00 - 9:45
+ESB 18
+*
+Entrepreneurship
+Sunday, 9:45 - 10:30
+ESB 18
+*
+Finance
+Sunday, 10:45 - 11:30
+ESB 16
+*
+Human Resources
+Sunday, 12:45 - 1:30
+ESB 03
+*
+International Business
+Sunday, 4:00 - 4:45
+ESB 103
+*
+Marketing
+Saturday, 8:15 - 9:00
+ESB 103
+*
+Management Information Systems
+Saturday, 4:00 - 4:45
+ESB 16
+*
+Not For Profit
+Saturday, 12:45 - 1:30
+ESB 03
+*
+Taxation
+Sunday, 1:30 - 2:15
+ESB 116
+*
+--END A--
+--B--
+Accounting
+Saturday, 9:00 - 9:45
+ESB 116
+*
+Business Strategy
+Saturday, 8:15 - 9:00
+ESB 18
+*
+Entrepreneurship
+Sunday, 1:30 - 2:15
+ESB 18
+*
+Finance
+Sunday, 3:15 - 4:00
+ESB 16
+*
+Human Resources
+Sunday, 10:45 - 11:30
+ESB 03
+*
+International Business
+Sunday, 9:45 - 10:30
+ESB 103
+*
+Marketing
+Saturday, 4:00 - 4:45
+ESB 103
+*
+Management Information Systems
+Saturday, 12:45 - 1:30
+ESB 16
+*
+Not For Profit
+Saturday, 11:30 - 12:15
+ESB 03
+*
+Taxation
+Sunday, 12:45 - 1:30
+ESB 116
+*
+--END B--
+--C--
+Accounting
+Saturday, 8:15 - 9:00
+ESB 116
+*
+Business Strategy
+Saturday, 4:00 - 4:45
+ESB 18
+*
+Entrepreneurship
+Sunday, 10:45 - 11:30
+ESB 18
+*
+Finance
+Sunday, 4:00 - 4:45
+ESB 16
+*
+Human Resources
+Sunday, 3:15 - 4:00
+ESB 03
+*
+International Business
+Sunday, 12:45 - 1:30
+ESB 103
+*
+Marketing
+Saturday, 12:45 - 1:30
+ESB 103
+*
+Management Information Systems
+Saturday, 11:30 - 12:15
+ESB 16
+*
+Not For Profit
+Saturday, 10:45 - 11:30
+ESB 03
+*
+Taxation
+Sunday, 9:45 - 10:30
+ESB 116
+*
+--END C--
+--D--
+Accounting
+Saturday, 4:00 - 4:45
+ESB 116
+*
+Business Strategy
+Saturday, 10:45 - 11:30
+ESB 18
+*
+Entrepreneurship
+Sunday, 12:45 - 1:30
+ESB 18
+*
+Finance
+Sunday, 1:30 - 2:15
+ESB 16
+*
+Human Resources
+Sunday, 4:00 - 4:45
+ESB 03
+*
+International Business
+Sunday, 10:45 - 11:30
+ESB 103
+*
+Marketing
+Saturday, 9:45 - 10:30
+ESB 103
+*
+Management Information Systems
+Saturday, 4:45 - 5:30
+ESB 16
+*
+Not For Profit
+Saturday, 9:00 - 9:45
+ESB 03
+*
+Taxation
+Sunday, 8:15 - 9:00
+ESB 116
+*
+--END D--
+--E--
+Accounting
+Saturday, 10:45 - 11:30
+ESB 116
+*
+Business Strategy
+Saturday, 9:45 - 10:30
+ESB 18
+*
+Entrepreneurship
+Sunday, 9:00 - 9:45
+ESB 18
+*
+Finance
+Sunday, 12:45 - 1:30
+ESB 16
+*
+Human Resources
+Sunday, 1:30 - 2:15
+ESB 03
+*
+International Business
+Sunday, 2:15 - 3:00
+ESB 103
+*
+Marketing
+Saturday, 3:15 - 4:00
+ESB 103
+*
+Management Information Systems
+Saturday, 2:15 - 3:00
+ESB 16
+*
+Not For Profit
+Saturday, 4:00 - 4:45
+ESB 03
+*
+Taxation
+Sunday, 10:45 - 11:30
+ESB 116
+*
+--END E--
+--F--
+Accounting
+Saturday, 9:45 - 10:30
+ESB 116
+*
+Business Strategy
+Saturday, 1:30 - 2:15
+ESB 18
+*
+Entrepreneurship
+Sunday, 8:15 - 9:00
+ESB 18
+*
+Finance
+Sunday, 9:00 - 9:45
+ESB 16
+*
+Human Resources
+Sunday, 11:30 - 12:15
+ESB 03
+*
+International Business
+Sunday, 1:30 - 2:15
+ESB 103
+*
+Marketing
+Saturday, 2:15 - 3:00
+ESB 103
+*
+Management Information Systems
+Saturday, 3:15 - 4:00
+ESB 16
+*
+Not For Profit
+Saturday, 4:45 - 5:30
+ESB 03
+*
+Taxation
+Sunday, 2:15 - 3:00
+ESB 116
+*
+--END F--
+--G--
+Accounting
+Saturday, 3:15 - 4:00
+ESB 116
+*
+Business Strategy
+Saturday, 2:15 - 3:00
+ESB 18
+*
+Entrepreneurship
+Sunday, 2:15 - 3:00
+ESB 18
+*
+Finance
+Sunday, 8:15 - 9:00
+ESB 16
+*
+Human Resources
+Sunday, 9:00 - 9:45
+ESB 03
+*
+International Business
+Sunday, 3:15 - 4:00
+ESB 103
+*
+Marketing
+Saturday, 1:30 - 2:15
+ESB 103
+*
+Management Information Systems
+Saturday, 10:45 - 11:30
+ESB 16
+*
+Not For Profit
+Saturday, 9:45 - 10:30
+ESB 03
+*
+Taxation
+Sunday, 11:30 - 12:15
+ESB 116
+*
+--END G--
+--H--
+Accounting
+Saturday, 1:30 - 2:15
+ESB 116
+*
+Business Strategy
+Saturday, 12:45 - 1:30
+ESB 18
+*
+Entrepreneurship
+Sunday, 11:30 - 12:15
+ESB 18
+*
+Finance
+Sunday, 2:15 - 3:00
+ESB 16
+*
+Human Resources
+Sunday, 8:15 - 9:00
+ESB 03
+*
+International Business
+Sunday, 9:00 - 9:45
+ESB 103
+*
+Marketing
+Saturday, 4:45 - 5:30
+ESB 103
+*
+Management Information Systems
+Saturday, 9:45 - 10:30
+ESB 16
+*
+Not For Profit
+Saturday, 2:15 - 3:00
+ESB 03
+*
+Taxation
+Sunday, 3:15 - 4:00
+ESB 116
+*
+--END H--
+--I--
+Accounting
+Saturday, 2:15 - 3:00
+ESB 116
+*
+Business Strategy
+Saturday, 4:45 - 5:30
+ESB 18
+*
+Entrepreneurship
+Sunday, 3:15 - 4:00
+ESB 18
+*
+Finance
+Sunday, 11:30 - 12:15
+ESB 16
+*
+Human Resources
+Sunday, 2:15 - 3:00
+ESB 03
+*
+International Business
+Sunday, 8:15 - 9:00
+ESB 103
+*
+Marketing
+Saturday, 10:45 - 11:30
+ESB 103
+*
+Management Information Systems
+Saturday, 1:30 - 2:15
+ESB 16
+*
+Not For Profit
+Saturday, 3:15 - 4:00
+ESB 03
+*
+Taxation
+Sunday, 9:00 - 9:45
+ESB 116
+*
+--END I--
+--J--
+Business Strategy
+Saturday, 3:15 - 4:00
+ESB 18
+*
+Entrepreneurship
+Sunday, 4:45 - 5:30
+ESB 18
+*
+Finance
+Sunday, 9:45 - 10:30
+ESB 16
+*
+Marketing
+Saturday, 11:30 - 12:15
+ESB 103
+*
+Management Information Systems
+Saturday, 9:00 - 9:45
+ESB 16
+*
+Not For Profit
+Saturday, 8:15 - 9:00
+ESB 03
+*
+Taxation
+Sunday, 
+ESB 116
+*
+--END J--
+--K--
+Accounting
+Saturday, 12:45 - 1:30
+ESB 116
+*
+Business Strategy
+Saturday, 11:30 - 12:15
+ESB 18
+*
+Entrepreneurship
+Sunday, 4:00 - 4:45
+ESB 18
+*
+Finance
+Sunday, 4:45 - 5:30
+ESB 16
+*
+Human Resources
+Sunday, 9:45 - 10:30
+ESB 03
+*
+International Business
+Sunday, 11:30 - 12:15
+ESB 103
+*
+Marketing
+Saturday, 9:00 - 9:45
+ESB 103
+*
+Management Information Systems
+Saturday, 8:15 - 9:00
+ESB 16
+*
+Not For Profit
+Saturday, 1:30 - 2:15
+ESB 03
+*
+--END K--

@@ -30,7 +30,7 @@ class ScheduleController < Rho::RhoController
     
     @items = case @type
       when "General" then ["Friday", "Saturday_Evening", "Sunday_Evening"]
-      when "Cases" then ["A", "B", "C", "D", "E", "F", "G", "H"]
+      when "Cases" then ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]
       when "Debate" then ["Saturday", "Sunday"]
       when "Sport" then ["Water_Basketball_Rounds", "Water_Basketball_Playoffs", "Ultimate_Frisbee_Rounds", "Ultimate_Frisbee_Playoffs"]
     end

@@ -11,7 +11,7 @@
     <% @info.split("*").each do |info| %>
     <li>
       <div class="itemLabel" style="width:90%; float:none;">
-        <%= info.gsub("\n", "<br />") %>
+        <%= info.strip.gsub("\n", "<br />") %>
       </div>
     </li>
     <% end %>
