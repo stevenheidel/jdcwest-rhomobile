@@ -1,21 +1,21 @@
 --- 
+name: JDC West
 extensions: 
 - json
-name: JDC West
-bbver: 4.6
-sdk: /home/steven/.rvm/gems/ruby-1.9.2-p136/gems/rhodes-2.2.6
+bbver: 6.0
 android: 
   version: 2.1
-applog: rholog.txt
+sdk: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-2.2.6
 build: debug
-wmsdk: Windows Mobile 6 Professional SDK (ARMV4I)
+applog: rholog.txt
 version: 1.0
-vendor: rhomobile
+wmsdk: Windows Mobile 6 Professional SDK (ARMV4I)
 sdkversion: 2.1.0
+vendor: rhomobile
 iphone: 
   provisionprofile: 
   sdk: iphonesimulator4.0
-  entitlements: 
   codesignidentity: 
+  entitlements: 
   configuration: Debug
   emulator: 4.0.1
