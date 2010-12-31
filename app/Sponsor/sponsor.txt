@@ -1,76 +1,76 @@
-CGA
-Presenting Sponsor
+CGA,
+Presenting Sponsor,
 http://www.cga-canada.org/en-ca/Pages/default.aspx
 --
-Ministry of Advanced Education and Labour
-Founding Partner
+Ministry of Advanced Education and Labour,
+Founding Partner,
 http://www.aeel.gov.sk.ca/
 --
-PotashCorp
-Founding Partner
+PotashCorp,
+Founding Partner,
 http://www.potashcorp.com/
 --
-ESB
-Hosting Partner
+ESB,
+Hosting Partner,
 http://www.edwards.usask.ca/
 --
-Tourism Saskatoon
-Executive Partner
+Tourism Saskatoon,
+Executive Partner,
 http://www.tourismsaskatoon.com/
 --
-CMA
-Business Strategy Sponsor
+CMA,
+Business Strategy Sponsor,
 http://www.cma-saskatchewan.com/
 --
-Enterprise Saskatchewan
-Entrepreneurship Sponsor
+Enterprise Saskatchewan,
+Entrepreneurship Sponsor,
 http://www.enterprisesaskatchewan.ca/
 --
-St Peter's College
-NFP Business Strategy Sponsor
+St Peter's College,
+NFP Business Strategy Sponsor,
 http://www.stpeterscollege.ca/
 --
-Scotiabank
-Finance Sponsor
+Scotiabank,
+Finance Sponsor,
 http://www.scotiabank.com/
 --
-Nexen
-International Business Sponsor
+Nexen,
+International Business Sponsor,
 http://www.nexeninc.com/
 --
-Cameco
-Organizing Committee Sponsor
+Cameco,
+Organizing Committee Sponsor,
 http://www.cameco.com/
 --
-Viterra
-Gala Awards Sponsor
+Viterra,
+Gala Awards Sponsor,
 http://www.viterra.ca/
 --
-CHRP
-Associate Partner
+CHRP,
+Associate Partner,
 http://www.chrp.ca/en/
 --
-Case New Holland
-Associate Partner
+Case New Holland,
+Associate Partner,
 http://www.cnh.com/
 --
-PWC
-Associate Partner
+PWC,
+Associate Partner,
 http://www.pwc.com/ca/en/index.jhtml
 --
-SaskTel
-Associate Partner
+SaskTel,
+Associate Partner,
 http://www.sasktel.com/
 --
-SaskEnergy
-Volunteer Sponsor
+SaskEnergy,
+Volunteer Sponsor,
 http://www.saskenergy.com/
 --
-KPMG
-Lunch Sponsor
+KPMG,
+Lunch Sponsor,
 http://www.kpmg.com/ca/en
 --
-Comfort Cab
-Transportation Partner
-Description
+Comfort Cab,
+Transportation Partner,
+http://www.comfortcab.ca/
 --

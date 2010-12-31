@@ -10,7 +10,7 @@
   <table>
     <tr>
       <% @sponsors.each do |sponsor| %>
-        <td class="recordLabel"><%= link_to "#{sponsor.name}", :action => :show, :id => sponsor.object %></td>
+        <td class="recordLabel"><%= link_to "#{sponsor[:name].gsub("_", " ")}", :action => :show, :id => sponsor[:name] %></td>
       <% end %>
     </tr>
   </table>

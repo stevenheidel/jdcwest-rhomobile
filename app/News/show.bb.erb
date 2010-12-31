@@ -1,35 +1,27 @@
-<div id="pageTitle">
-	<h1><%= @news.title%></h1>
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a href="<%= url_for :action => :index %>">Back</a>
+  </div>
+  
+  <h1 id="pageTitle"><%= @news.title %></h1>
 </div>
-
-<div id="toolbar">
-  <%= link_to "Back", :action => :index %>
-  <%= link_to "Edit", :action => :edit, :id => @news.object %>
-</div>
-
 
 <div id="content">
 
     <table>
-      
+            
       <tr>
-    	<td class="itemLabel">Title</td>
-        <td class="itemValue"><%= @news.title%></td>
-      </tr>
-      
-      <tr>
-    	<td class="itemLabel">Date</td>
+    	  <td class="itemLabel">Date</td>
         <td class="itemValue"><%= @news.date%></td>
       </tr>
       
       <tr>
-    	<td class="itemLabel">Body</td>
-        <td class="itemValue"><%= @news.body%></td>
+    	  <td class="itemLabel">Author</td>
+        <td class="itemValue"><%= @news.author%></td>
       </tr>
       
       <tr>
-    	<td class="itemLabel">Author</td>
-        <td class="itemValue"><%= @news.author%></td>
+        <td class="recordLabel"><%= @news.body%></td>
       </tr>
       
     </table>

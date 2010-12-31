@@ -1,9 +1,15 @@
 <div class="toolbar">
-  <div class="leftItem regularButton">
-    <a href="<%= url_for :action => :update %>">Refresh</a>
-  </div>
+  <% if System::get_property('platform') == 'Blackberry' %>
+    <div class="leftItem regularButton">
+      <%= link_to "Home", RhoConfig::start_path %>
+    </div>
+  <% end %>
   
   <h1 id="pageTitle">News</h1>
+  
+  <div class="rightItem regularButton">
+    <a href="<%= url_for :action => :update %>">Refresh</a>
+  </div>
 </div>
 
 <div class="content">

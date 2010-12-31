@@ -3,7 +3,7 @@
     <a href="<%= url_for :action => :index %>">Back</a>
   </div>
   
-  <h1 id="pageTitle"><%= @sponsor[:name] %></h1>
+  <h1 id="pageTitle"><%= @sponsor[:name].gsub("_", " ") %></h1>
 </div>
 
 <div class="content">

@@ -13,9 +13,15 @@
 <div id="content">
   <table>
     <tr>
+    <% if @news.size == 0 %>
+      
+      <td class="recordLabel">You must be connected to the internet. Press refresh to get the latest News.</td>
+      
+    <% end %>  
+    
     <% @news.each do |obj| %>
     	
-    	    <td class="recordLabel"><%= link_to "#{obj.title}", :action => :show, :id => obj.object %></td>
+    	<td class="recordLabel"><%= link_to "#{obj.title}", :action => :show, :id => obj.object %></td>
     	
     <% end %>
     </tr>

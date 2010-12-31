@@ -4,27 +4,27 @@
   <h1 id="pageTitle">JDC West Menu</h1>
 </div>
 
-<div id="content">
+<div class="content">
   <ul>
     <li>
-      <a href="<%= url_for :controller => :News, :action => :index %>"><span class="title">
-        News
-      </span></a>
+      <a href="<%= url_for :controller => :News, :action => :index %>">
+        <span class="title">News</span><span class="disclosure_indicator"></span>
+      </a>
     </li>
     <li>
-      <a href="<%= url_for :controller => :Schedule, :action => :index %>"><span class="title">
-        Schedule
-      </span></a>
+      <a href="<%= url_for :controller => :Schedule, :action => :index %>">
+        <span class="title">Schedule</span><span class="disclosure_indicator"></span>
+      </a>
     </li>
     <li>
-      <a href="<%= url_for :controller => :More, :action => :index %>"><span class="title">
-        More
-      </span></a>
+      <a href="<%= url_for :controller => :More, :action => :index %>">
+        <span class="title">More</span><span class="disclosure_indicator"></span>
+      </a>
     </li>
   </ul>
 </div>
 
-<% else %>
+<% end %>
 
 <script src="/app/countdown.js" type="text/javascript"></script>
 
@@ -58,5 +58,3 @@
   </ul>
   
 </div>
-
-<% end %>

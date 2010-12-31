@@ -12,7 +12,7 @@
     
         <li>
           <a href="<%= url_for :action => :show, :id => sponsor[:name] %>">
-            <span class="title"><%= sponsor[:name] %></span><span class="disclosure_indicator"></span>
+            <span class="title"><%= sponsor[:name].gsub("_", " ") %></span><span class="disclosure_indicator"></span>
           </a>
         </li>
     

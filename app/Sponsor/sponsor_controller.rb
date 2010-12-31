@@ -31,14 +31,15 @@ class SponsorController < Rho::RhoController
   def read_sponsors
     sponsors = []
       
-    filename = File.join(Rho::RhoApplication::get_model_path('app','Sponsor'), 'sponsor.txt')
-      
-    filename.readlines(filename, "--\n").each do |section|
-      lines = section.lines.to_a
+    contents = File.open(File.join(Rho::RhoApplication::get_model_path('app','Sponsor'), 'sponsor.txt')).read
+    #contents = File.open(File.join('app', 'Sponsor', 'sponsor.txt')).read.strip
+    
+    contents.split("--").each do |section|
+      lines = section.strip.split(",")
       # create hash of field\value pairs
-      data = {:name => lines[0].chomp, 
-              :type => lines[1].chomp, 
-              :description => lines[2..-2].join.chomp}
+      data = {:name => lines[0].strip.gsub(" ", "_"), 
+              :type => lines[1].strip, 
+              :description => lines[2].strip}
       
       sponsors << data
     end

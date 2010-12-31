@@ -1,4 +1,9 @@
 <div class="toolbar">
+  <% if System::get_property('platform') == 'Blackberry' %>
+    <div class="leftItem regularButton">
+      <%= link_to "Home", RhoConfig::start_path %>
+    </div>
+  <% end %>
   <h1 id="pageTitle">More</h1>
 </div>
 
