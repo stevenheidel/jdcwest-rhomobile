@@ -1,0 +1,20 @@
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a href="<%= url_for :action => :index %>">Back</a>
+  </div>
+  
+  <h1 id="pageTitle"><%= @item.gsub("_", " ") + " " + @type %></h1>
+</div>
+
+<div id="content">
+
+    <table>
+      
+      <tr>
+        <% @info.split("*").each do |info| %>
+        <td class="recordLabel"><%= info.gsub("\n", "<br />") %></td>
+        <% end %>
+      </tr>
+      
+    </table>
+</div>

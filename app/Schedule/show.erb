@@ -1,0 +1,30 @@
+<div class="pageTitle">
+  <h1><%= @schedule.name %></h1>
+</div>
+
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a href="<%= url_for :action => :index %>">Back</a>
+  </div>
+</div>
+
+<div class="content">
+  <ul>
+    
+        <li>
+          <div class="itemLabel">Name</div>
+          <div class="itemValue"><%= @schedule.name %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Type</div>
+          <div class="itemValue"><%= @schedule.type %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Info</div>
+          <div class="itemValue"><%= @schedule.info %></div>
+        </li>
+    
+  </ul>
+</div>

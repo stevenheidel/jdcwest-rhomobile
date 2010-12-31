@@ -1,0 +1,144 @@
+--Water_Basketball_Rounds--
+<strong>Saturday</strong>
+<strong>Harry Bailey Aquatic Centre</strong>
+*
+7:55 - 8:30
+Court 1 - E vs A
+Court 2 - B vs D
+Court 3 - F vs K
+*
+8:30 - 9:05
+Court 1 - A vs C
+Court 2 - F vs I
+Court 3 - K vs H
+*
+9:05 - 9:40
+Court 1 - C vs E
+Court 2 - G vs F
+Court 3 - H vs I
+*
+9:40 - 10:15
+Court 1 - E vs B
+Court 2 - (none)
+Court 3 - I vs K
+*
+10:15 - 10:50
+Court 1 - A vs B
+Court 2 - E vs D
+Court 3 - G vs H
+*
+10:50 - 11:25
+Court 1 - B vs C
+Court 2 - D vs A
+Court 3 - I vs G
+*
+11:25 - 12:00
+Court 1 - C vs D
+Court 2 - F vs H
+Court 3 - G vs K
+*
+--END Water_Basketball_Rounds--
+--Water_Basketball_Playoffs--
+<strong>Saturday</strong>
+<strong>Harry Bailey Aquatic Centre</strong>
+*
+1:00 - 1:35
+Court 1 - Playoff 1
+Court 2 - Playoff 2
+Court 3 - Consolation
+*
+1:35 - 2:10
+Court 1 - Consolation
+Court 2 - Consolation
+*
+2:10 - 2:45
+Court 1 - Semi Final 1
+Court 2 - Semi Final 2
+*
+2:45 - 3:20
+Court 3 - Consolation
+*
+3:20 - 3:55
+Court 1 - Consolation
+Court 2 - Fifth Place
+Court 3 - Consolation
+*
+3:55 - 4:30
+Court 2 - Third Place
+*
+4:30 - 5:00
+Court 2 - Final
+*
+--END Water_Basketball_Playoffs--
+--Ultimate_Frisbee_Rounds--
+<strong>Sunday</strong>
+<strong>Ramada Golf Dome</strong>
+*
+6:30 - 7:15
+Court 1 - A vs I
+Court 2 - C vs G
+Court 3 - B vs K
+*
+7:15 - 8:00
+Court 1 - E vs A
+Court 2 - B vs H
+Court 3 - F vs K
+*
+8:00 - 8:45
+Court 1 - I vs E
+Court 2 - D vs B
+Court 3 - H vs F
+*
+8:45 - 9:30
+Court 1 - C vs I
+Court 2 - (none)
+Court 3 - K vs H
+*
+9:30 - 10:15
+Court 1 - A vs C
+Court 2 - I vs G
+Court 3 - D vs F
+*
+10:15 - 11:00
+Court 1 - C vs E
+Court 2 - G vs A
+Court 3 - H vs D
+*
+11:00 - 11:45
+Court 1 - E vs G
+Court 2 - B vs F
+Court 3 - D vs K
+*
+--END Ultimate_Frisbee_Rounds--
+--Ultimate_Frisbee_Playoffs--
+<strong>Sunday</strong>
+<strong>Ramada Golf Dome</strong>
+*
+12:15 - 1:00
+Court 1 - Playoff 1
+Court 2 - Playoff 2
+Court 3 - Consolation
+*
+1:00 - 1:45
+Court 1 - Consolation
+Court 2 - Consolation
+*
+1:45 - 2:30
+Court 1 - Semi Final 1
+Court 2 - Semi Final 2
+*
+2:30 - 3:15
+Court 3 - Consolation
+*
+3:15 - 4:00
+Court 1 - Consolation
+Court 2 - Fifth Place
+Court 3 - Consolation
+*
+4:00 - 4:45
+Court 2 - Third Place
+*
+4:45 - 5:30
+Court 2 - Final
+*
+--END Ultimate_Frisbee_Playoffs--

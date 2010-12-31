@@ -1,0 +1,21 @@
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a href="<%= url_for :action => :index %>">Back</a>
+  </div>
+  
+  <h1 id="pageTitle"><%= @type %></h1>
+</div>
+
+<div id="content">
+
+    <table>
+            
+      <tr>
+        <% @items.each do |item| %>
+          <td class="recordLabel"><%= link_to "#{item.gsub('_', ' ')}", :action => :show, :id => @type + "-" + item %></td>
+        <% end %>
+      </tr>
+      
+    </table>
+    
+</div>

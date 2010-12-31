@@ -1,0 +1,118 @@
+--Friday--
+Buffer zone (A,C,D,E,F)
+2:00 - 5:00
+Kiwanis Park
+*
+Faculty Advisors' meeting
+5:15 - 5:45
+Rubens Room
+*
+Sport Captains' meeting
+5:15 - 5:45
+Venice Room
+*
+Debate Captains' meeting
+5:15 - 5:45
+Naples Room
+*
+Social Meeting
+5:15 - 5:45
+Picasso Room
+*
+Team Captains' Meeting
+5:15 - 5:45
+Florence Room
+*
+Team Meeting
+6:00 - 6:30
+Radisson Hotel
+*
+Team Meeting
+6:30 - 7:00
+Radisson Hotel
+*
+Team Meeting
+7:00 - 7:30
+Radisson Hotel
+*
+Dinner
+6:30- 7:00
+Michelangelo
+*
+Dinner
+7:00 - 7:30
+Michelangelo
+*
+Bus to TCU
+7:30 - 8:00
+Radisson Hotel
+*
+--END Friday--
+--Saturday_Evening--
+Team Meeting
+5:55 - 6:15
+Radisson Hotel
+*
+Debate Meeting
+6:15 - 6:35
+Florence Room
+*
+Sport Captain Meeting
+6:15 - 6:35
+Venice Room
+*
+Dinner (A,B,C,E,J,K)
+6:35 - 7:10
+Michelangelo
+*
+Dinner (D,F,G,H,I)
+7:10 - 7:40
+Michelangelo
+*
+Team Captains' Meeting
+6:55 - 7:25
+Florence Room
+*
+Bus to night event
+7:40 - 8:15
+?
+*
+Shakespeare
+8:30 - 12:00
+Odeon
+*
+Hospitality Suite
+12:00 - Late
+Picasso Room
+*
+--END Saturday_Evening--
+--Sunday_Evening--
+Captains' Meeting
+5:40 - 6:15
+Florence Room
+*
+Team Meeting (D,E,F,G,H,I)
+6:15 - 6:30
+Radisson Hotel
+*
+Team Meeting (A,B,C,J,K)
+6:30 - 6:45
+Radisson Hotel
+*
+Bus to Gala
+6:30 - 7:00
+?
+*
+Team Photos
+6:55 - 7:35
+TCU Place Salon
+*
+Gala
+7:40 - 12:30
+TCU Place Salon
+*
+Hospitality Suite
+12:30 - Late
+Michelangelo
+*
+--END Sunday_Evening--

@@ -1,0 +1,20 @@
+<div id="toolbar">
+  <div class="leftItem regularButton">
+    <%= link_to "Home", RhoConfig::start_path %>
+  </div>
+  
+  <h1 id="pageTitle">Schedule</h1>
+</div>
+
+<div id="content">
+  <table>
+    <tr>
+      
+    	<td class="recordLabel"><%= link_to "General", :action => :submenu, :id => "General" %></td>
+    	<td class="recordLabel"><%= link_to "Case Competition", :action => :submenu, :id => "Cases" %></td>
+    	<td class="recordLabel"><%= link_to "Debate", :action => :submenu, :id => "Debate" %></td>
+      <td class="recordLabel"><%= link_to "Sport", :action => :submenu, :id => "Sport" %></td>
+    
+    </tr>
+  </table>
+</div>

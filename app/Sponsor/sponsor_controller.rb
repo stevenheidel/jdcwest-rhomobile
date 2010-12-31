@@ -32,7 +32,6 @@ class SponsorController < Rho::RhoController
     sponsors = []
       
     contents = File.open(File.join(Rho::RhoApplication::get_model_path('app','Sponsor'), 'sponsor.txt')).read
-    #contents = File.open(File.join('app', 'Sponsor', 'sponsor.txt')).read.strip
     
     contents.split("--").each do |section|
       lines = section.strip.split(",")
